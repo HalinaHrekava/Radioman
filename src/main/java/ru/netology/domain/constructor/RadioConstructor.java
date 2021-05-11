@@ -37,10 +37,8 @@ public class RadioConstructor {
         if (currentStation <= minStation) {
             setCurrentStation(maxStation);
             return;
-        } else {
-            setCurrentStation(currentStation - 1);
         }
-
+        setCurrentStation(currentStation - 1);
     }
 
 
